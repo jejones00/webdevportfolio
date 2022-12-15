@@ -10,7 +10,7 @@
   
   body {
     margin: 10px;
-    background-color: rgb(251, 249, 249);
+    background-color: rgb(18, 6, 6);
     color: #f9f9f9;
     font-family: jeanne moderno ot roman;
   }
@@ -28,7 +28,7 @@
     div {
       width: 100px;
       height: 100px;
-      background: #f20095;
+      background: #f20000;
       transition: width: 2s; height: 4s;
     }
     div:hover {
@@ -56,7 +56,7 @@
   width: 400px;}
   }
   h3{
-    color: #ff007b;
+    color: #ff0000;
   }
   h3 {
     text-shadow: 2px 2px #ff0000;
@@ -93,12 +93,12 @@
   }
   th{
     text-align: left;
-    background: #d00000;
+    background: #ff0202;
     padding: 10px;
   }
   td{
     padding: 10px;
-    border-bottom: 1px solid #ff106f;
+    border-bottom: 1px solid #ff1010;
     padding: 10px;
   }
     label{
@@ -123,10 +123,10 @@
   @media only screen and (min-width: 481px){
     body {
       background-color: #236139;
-      color: #f9f9f9;
+      color: #ff0000;
     }
     h1{
-      color: #f9f9f9;
+      color: #ff0000;
     }
   
     }/*end media query*/
@@ -140,19 +140,19 @@
         color: black;
       }
   h1{
-    color: #f00275;
+    color: #f00202;
   
   }
   h1 {
-    text-shadow: 2px 2px #fce303;
+    text-shadow: 2px 2px #ff0000;
   }
   
   h3{
-    color: #fce303;
+    color: #f40000;
   }
   
     {
-      text-shadow: 3px 3px #f00275;
+      text-shadow: 3px 3px #ebe8cd;
   }
   
   
