@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body { 
+  max-width: 40rem;
+    margin: 0 auto;
+    padding: .75rem;
+  background-image: url('https://web.archive.org/web/20070919162847/http://www.geocities.com/moonangel_forever/starwall.gif');
+}
+
+p {
+  color: white;
+}
+h1 {
+  color: #f2447b;
+}
+
+h2 {
+  color: #f57fa4;
+}
+
+h3 {
+  color: #f5bfd0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.back-to-top {
+  background-color:#f2447b ;
+  padding: 1em;
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  border-radius: 10px; 
+
+}
+
+
+a {
+  /* YOUR CODE BELOW HERE, style the color of your links using the custom property you created above */
+  
+a {
+  /* YOUR CODE BELOW HERE, style the color of your links using the custom property you created above */
+  color: white;
+  
+ padding-left: 20px; 
+ 
+}
+  
+  
+.movie {
+width: 400px;
+    
+height: 300px;
+    
+background-color: #f5bfd0; 
+  
+position: absolute;   
+    
+  }
+  
+  .city {
+    height: 400px;
+    align: center; 
+ 
