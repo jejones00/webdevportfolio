@@ -71,7 +71,7 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-image: url(<img src="https://pic.ebid.net/upload_big/4/3/0/uo_1619656125-3929-16.jpg">>);
+    background-image: url(https://pic.ebid.net/upload_big/4/3/0/uo_1619656125-3929-16.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top center;
@@ -155,4 +155,7 @@
       text-shadow: 3px 3px #f00275;
   }
   
+  
+
+
   } /*end media query*/
