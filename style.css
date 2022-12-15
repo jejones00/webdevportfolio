@@ -13,11 +13,17 @@ h1 {
 
 h2 { 
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #7a6856;
 }
 
 p {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+
+a{
+    color: green;
+}
+
 
 body{
 
