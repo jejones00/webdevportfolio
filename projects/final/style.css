@@ -1,0 +1,158 @@
+/*This is a comment*/
+
+/*mobile and global*/
+
+*{ /*clear browser default space*/
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    }
+  
+  body {
+    margin: 10px;
+    background-color: black;
+    color: #f9f9f9;
+    font-family: jeanne moderno ot roman;
+  }
+  
+  h1{
+    color: #fce303;
+    font-family: impetus heavy;
+  }
+  h1 {
+    text-shadow: 2px 2px #f00275;
+  }
+  img{
+    max-width: 100%; max-height: auto;
+    }
+    div {
+      width: 100px;
+      height: 100px;
+      background: #d95959;
+      transition: width: 2s; height: 4s;
+    }
+    div:hover {
+    width: 300px;}
+  }
+    <br>
+    <br>
+    <br>
+    <br>
+    img {
+    background: #eaeaed;
+    border: 1px solid #9799a7;
+    float: right;
+    margin: 8px 0 0 8px;
+    padding: 4px;
+    width: 150px;
+  }
+  div{
+    width: 150px;
+    height: 150px;
+    background: #d95959;
+    transition: width 2s; height: 4s;
+  }
+  div:hover {
+  width: 400px;}
+  }
+  h3{
+    color: #f00275;
+  }
+  h3 {
+    text-shadow: 2px 2px #fce303;
+  }
+  p{
+    margin: 10px 20px 10px 20px;
+  
+  }
+  header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(<img src="https://pic.ebid.net/upload_big/4/3/0/uo_1619656125-3929-16.jpg">>);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    background-attachment: fixed;
+  }
+  li{
+    text-align: center;
+    padding: 5px;
+    background: #8dc298;
+    margin-bottom: 3px;
+  }
+  li:hover {
+    background-color: #f00275;
+  }
+  table{
+    width: 100%;
+    background-image: linear-gradient(180deg, rgba(6, 249, 242, .5), #d95959);
+  
+  }
+  th{
+    text-align: left;
+    background: #d95959;
+    padding: 10px;
+  }
+  td{
+    padding: 10px;
+    border-bottom: 1px solid #d95959;
+    padding: 10px;
+  }
+    label{
+      display: block;
+      padding: 10px;
+    }
+  button{
+    display: block;
+    margin-top: 10px;
+    padding: 5px;
+  }
+  input{
+    background: whitesmoke;
+  }
+  form{
+    margin-left: 10px;
+  }
+  
+  
+  /*Wider than mobile, 480px*/
+  
+  @media only screen and (min-width: 481px){
+    body {
+      background-color: #236139;
+      color: #f9f9f9;
+    }
+    h1{
+      color: #f9f9f9;
+    }
+  
+    }/*end media query*/
+  
+    /*Wider than tablet 760px */
+  
+    @media only screen and (min-width:761px){
+  
+      body {
+        background-color: #e69437;
+        color: black;
+      }
+  h1{
+    color: #f00275;
+  
+  }
+  h1 {
+    text-shadow: 2px 2px #fce303;
+  }
+  
+  h3{
+    color: #fce303;
+  }
+  
+    {
+      text-shadow: 3px 3px #f00275;
+  }
+  
+  } /*end media query*/

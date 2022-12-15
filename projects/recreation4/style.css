@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  
+}
+
+body {
+  font-family: 'Work Sans', sans-serif;
+  background-color: #eca4fb;
+  padding: .5rem;
+}
+
+  
+/* align-content only matters when your items wrap */
+.container {
+  flex-direction: row;
+  align-items: center;
+   background-color: white;
+  margin: 0 auto;
+ 
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+
+.left {
+  background-color: #555;
+  gap: 1rem;
+  
+  
+  flex-grow: 1;
+  flex-basis: 60%;
+  align-items: center;
+}
+ 
+  
+}
+
+  
+  .right {
+  background-color: white
+  padding: 1rem;
+flex-grow: 1;
+  flex-basis: 35%;
+  min-width: 12rem;
+
+}
+ 
